@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,15 @@
 		5EC2D8CB26B4D5D300B02946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC2D8C926B4D5D300B02946 /* Main.storyboard */; };
 		5EC2D8CD26B4D5D400B02946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC2D8CC26B4D5D400B02946 /* Assets.xcassets */; };
 		5EC2D8D026B4D5D400B02946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC2D8CE26B4D5D400B02946 /* LaunchScreen.storyboard */; };
+		5EC2D8E026B4D94900B02946 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC2D8DF26B4D94900B02946 /* Images.xcassets */; };
+		5EC2D8E226B4DA2100B02946 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC2D8E126B4DA2100B02946 /* R.generated.swift */; };
+		5EC2D8E426B4DA4E00B02946 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC2D8E326B4DA4E00B02946 /* Second.storyboard */; };
+		5EC2D8E626B4DA5900B02946 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC2D8E526B4DA5900B02946 /* SecondViewController.swift */; };
+		5EC2D8E926B4DBDE00B02946 /* NotoSansJP-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5EC2D8E826B4DBDE00B02946 /* NotoSansJP-Regular.otf */; };
+		5EC2D8EB26B4DD2500B02946 /* r_sample_json.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EC2D8EA26B4DC6400B02946 /* r_sample_json.json */; };
+		5EC2D8ED26B4DD5D00B02946 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC2D8EC26B4DD5D00B02946 /* Colors.xcassets */; };
+		5EC2D8F026B4DE8B00B02946 /* RDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC2D8EF26B4DE8B00B02946 /* RDemoView.swift */; };
+		5EC2D8F226B4DE9700B02946 /* RDemoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EC2D8F126B4DE9700B02946 /* RDemoView.xib */; };
 		9162A07288ACC168573902E3 /* Pods_R_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F175F77752A65EF1330803A7 /* Pods_R_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +34,15 @@
 		5EC2D8CC26B4D5D400B02946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EC2D8CF26B4D5D400B02946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EC2D8D126B4D5D400B02946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC2D8DF26B4D94900B02946 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5EC2D8E126B4DA2100B02946 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		5EC2D8E326B4DA4E00B02946 /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		5EC2D8E526B4DA5900B02946 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5EC2D8E826B4DBDE00B02946 /* NotoSansJP-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Regular.otf"; sourceTree = "<group>"; };
+		5EC2D8EA26B4DC6400B02946 /* r_sample_json.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = r_sample_json.json; sourceTree = "<group>"; };
+		5EC2D8EC26B4DD5D00B02946 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		5EC2D8EF26B4DE8B00B02946 /* RDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDemoView.swift; sourceTree = "<group>"; };
+		5EC2D8F126B4DE9700B02946 /* RDemoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RDemoView.xib; sourceTree = "<group>"; };
 		BDC88D0BF16BDCF0896A07FC /* Pods-R-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-R-Demo.release.xcconfig"; path = "Target Support Files/Pods-R-Demo/Pods-R-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		CC9DBC914BC6DED938776840 /* Pods-R-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-R-Demo.debug.xcconfig"; path = "Target Support Files/Pods-R-Demo/Pods-R-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		F175F77752A65EF1330803A7 /* Pods_R_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_R_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,15 +89,64 @@
 		5EC2D8C226B4D5D300B02946 /* R-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				5EC2D8C326B4D5D300B02946 /* AppDelegate.swift */,
-				5EC2D8C526B4D5D300B02946 /* SceneDelegate.swift */,
-				5EC2D8C726B4D5D300B02946 /* ViewController.swift */,
-				5EC2D8C926B4D5D300B02946 /* Main.storyboard */,
-				5EC2D8CC26B4D5D400B02946 /* Assets.xcassets */,
-				5EC2D8CE26B4D5D400B02946 /* LaunchScreen.storyboard */,
-				5EC2D8D126B4D5D400B02946 /* Info.plist */,
+				5EC2D8E126B4DA2100B02946 /* R.generated.swift */,
+				5EC2D8DC26B4D8EF00B02946 /* Application */,
+				5EC2D8DD26B4D8FC00B02946 /* Controllers */,
+				5EC2D8DE26B4D93700B02946 /* Resources */,
 			);
 			path = "R-Demo";
+			sourceTree = "<group>";
+		};
+		5EC2D8DC26B4D8EF00B02946 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5EC2D8D126B4D5D400B02946 /* Info.plist */,
+				5EC2D8CE26B4D5D400B02946 /* LaunchScreen.storyboard */,
+				5EC2D8C326B4D5D300B02946 /* AppDelegate.swift */,
+				5EC2D8C526B4D5D300B02946 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5EC2D8DD26B4D8FC00B02946 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5EC2D8EE26B4DE6A00B02946 /* SubViews */,
+				5EC2D8C726B4D5D300B02946 /* ViewController.swift */,
+				5EC2D8C926B4D5D300B02946 /* Main.storyboard */,
+				5EC2D8E326B4DA4E00B02946 /* Second.storyboard */,
+				5EC2D8E526B4DA5900B02946 /* SecondViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5EC2D8DE26B4D93700B02946 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EC2D8EA26B4DC6400B02946 /* r_sample_json.json */,
+				5EC2D8E726B4DBC800B02946 /* CustomFonts */,
+				5EC2D8CC26B4D5D400B02946 /* Assets.xcassets */,
+				5EC2D8DF26B4D94900B02946 /* Images.xcassets */,
+				5EC2D8EC26B4DD5D00B02946 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5EC2D8E726B4DBC800B02946 /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				5EC2D8E826B4DBDE00B02946 /* NotoSansJP-Regular.otf */,
+			);
+			path = CustomFonts;
+			sourceTree = "<group>";
+		};
+		5EC2D8EE26B4DE6A00B02946 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				5EC2D8EF26B4DE8B00B02946 /* RDemoView.swift */,
+				5EC2D8F126B4DE9700B02946 /* RDemoView.xib */,
+			);
+			path = SubViews;
 			sourceTree = "<group>";
 		};
 		B28C62E7B252D8EC626A024D /* Pods */ = {
@@ -88,7 +155,6 @@
 				CC9DBC914BC6DED938776840 /* Pods-R-Demo.debug.xcconfig */,
 				BDC88D0BF16BDCF0896A07FC /* Pods-R-Demo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -100,6 +166,7 @@
 			buildConfigurationList = 5EC2D8D426B4D5D400B02946 /* Build configuration list for PBXNativeTarget "R-Demo" */;
 			buildPhases = (
 				01928D03D29237AE1400CD4D /* [CP] Check Pods Manifest.lock */,
+				5EC2D8D726B4D6EB00B02946 /* Run Script */,
 				5EC2D8BC26B4D5D300B02946 /* Sources */,
 				5EC2D8BD26B4D5D300B02946 /* Frameworks */,
 				5EC2D8BE26B4D5D300B02946 /* Resources */,
@@ -152,8 +219,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EC2D8D026B4D5D400B02946 /* LaunchScreen.storyboard in Resources */,
+				5EC2D8E026B4D94900B02946 /* Images.xcassets in Resources */,
 				5EC2D8CD26B4D5D400B02946 /* Assets.xcassets in Resources */,
+				5EC2D8E426B4DA4E00B02946 /* Second.storyboard in Resources */,
 				5EC2D8CB26B4D5D300B02946 /* Main.storyboard in Resources */,
+				5EC2D8ED26B4DD5D00B02946 /* Colors.xcassets in Resources */,
+				5EC2D8F226B4DE9700B02946 /* RDemoView.xib in Resources */,
+				5EC2D8E926B4DBDE00B02946 /* NotoSansJP-Regular.otf in Resources */,
+				5EC2D8EB26B4DD2500B02946 /* r_sample_json.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +255,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5EC2D8D726B4D6EB00B02946 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
 		D7A6A99B214F96940F63BC1F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +302,9 @@
 				5EC2D8C826B4D5D300B02946 /* ViewController.swift in Sources */,
 				5EC2D8C426B4D5D300B02946 /* AppDelegate.swift in Sources */,
 				5EC2D8C626B4D5D300B02946 /* SceneDelegate.swift in Sources */,
+				5EC2D8E626B4DA5900B02946 /* SecondViewController.swift in Sources */,
+				5EC2D8F026B4DE8B00B02946 /* RDemoView.swift in Sources */,
+				5EC2D8E226B4DA2100B02946 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +454,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
-				INFOPLIST_FILE = "R-Demo/Info.plist";
+				INFOPLIST_FILE = "R-Demo/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,7 +474,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
-				INFOPLIST_FILE = "R-Demo/Info.plist";
+				INFOPLIST_FILE = "R-Demo/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
