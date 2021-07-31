@@ -41,7 +41,8 @@ class ViewController: UIViewController {
         
         // Nibs
         let _ = R.nib.rDemoView.name                         // name
-        let _ = R.nib.rDemoView()                            // custom view nib
+//        let _ = R.nib.rDemoView() // Depulicated??
+        let _ = R.nib.rDemoView                              // custom view nib
         let _ = R.nib.rDemoView.instantiate(withOwner: self) // root view
         let _ = R.nib.rDemoView.firstView(owner: self)       // custom view
         
