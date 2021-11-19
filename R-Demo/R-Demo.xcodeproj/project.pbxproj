@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E37811427475F550088DD91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E37811327475F550088DD91 /* ContentView.swift */; };
+		0E37811727475F700088DD91 /* R+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E37811627475F700088DD91 /* R+.swift */; };
 		5EC2D8C426B4D5D300B02946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC2D8C326B4D5D300B02946 /* AppDelegate.swift */; };
 		5EC2D8C626B4D5D300B02946 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC2D8C526B4D5D300B02946 /* SceneDelegate.swift */; };
 		5EC2D8C826B4D5D300B02946 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC2D8C726B4D5D300B02946 /* ViewController.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E37811327475F550088DD91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E37811627475F700088DD91 /* R+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "R+.swift"; sourceTree = "<group>"; };
 		5EC2D8C026B4D5D300B02946 /* R-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "R-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC2D8C326B4D5D300B02946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EC2D8C526B4D5D300B02946 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E37811227475F4A0088DD91 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				0E37811327475F550088DD91 /* ContentView.swift */,
+				0E37811627475F700088DD91 /* R+.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		2558769B13BF0F22402D99D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +102,7 @@
 		5EC2D8C226B4D5D300B02946 /* R-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				0E37811227475F4A0088DD91 /* SwiftUI */,
 				5EC2D8E126B4DA2100B02946 /* R.generated.swift */,
 				5EC2D8DC26B4D8EF00B02946 /* Application */,
 				5EC2D8DD26B4D8FC00B02946 /* Controllers */,
@@ -299,8 +313,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E37811727475F700088DD91 /* R+.swift in Sources */,
 				5EC2D8C826B4D5D300B02946 /* ViewController.swift in Sources */,
 				5EC2D8C426B4D5D300B02946 /* AppDelegate.swift in Sources */,
+				0E37811427475F550088DD91 /* ContentView.swift in Sources */,
 				5EC2D8C626B4D5D300B02946 /* SceneDelegate.swift in Sources */,
 				5EC2D8E626B4DA5900B02946 /* SecondViewController.swift in Sources */,
 				5EC2D8F026B4DE8B00B02946 /* RDemoView.swift in Sources */,
@@ -453,7 +469,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				DEVELOPMENT_TEAM = R6YNJ9HW8W;
 				INFOPLIST_FILE = "R-Demo/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,7 +489,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				DEVELOPMENT_TEAM = R6YNJ9HW8W;
 				INFOPLIST_FILE = "R-Demo/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
